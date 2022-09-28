@@ -143,8 +143,27 @@
             "important": false,
             "property": "filter",
             "value": {
-                "type": "Raw",
-                "value": "alpha(opacity=60)"
+                "type": "Value",
+                "children": [
+                    {
+                        "type": "Function",
+                        "name": "alpha",
+                        "children": [
+                            {
+                                "type": "Identifier",
+                                "name": "opacity"
+                            },
+                            {
+                                "type": "Comparator",
+                                "value": "="
+                            },
+                            {
+                                "type": "Number",
+                                "value": "60"
+                            }
+                        ]
+                    }
+                ]
             }
         }
     },
@@ -156,8 +175,27 @@
             "important": false,
             "property": "filter",
             "value": {
-                "type": "Raw",
-                "value": "ALPHA(opacity=60)"
+                "type": "Value",
+                "children": [
+                    {
+                        "type": "Function",
+                        "name": "ALPHA",
+                        "children": [
+                            {
+                                "type": "Identifier",
+                                "name": "opacity"
+                            },
+                            {
+                                "type": "Comparator",
+                                "value": "="
+                            },
+                            {
+                                "type": "Number",
+                                "value": "60"
+                            }
+                        ]
+                    }
+                ]
             }
         }
     },
@@ -169,8 +207,59 @@
             "important": false,
             "property": "filter",
             "value": {
-                "type": "Raw",
-                "value": "dropshadow(color=#000,offx=0,offy=-1)"
+                "type": "Value",
+                "children": [
+                    {
+                        "type": "Function",
+                        "name": "dropshadow",
+                        "children": [
+                            {
+                                "type": "Identifier",
+                                "name": "color"
+                            },
+                            {
+                                "type": "Comparator",
+                                "value": "="
+                            },
+                            {
+                                "type": "Hash",
+                                "value": "000"
+                            },
+                            {
+                                "type": "Operator",
+                                "value": ","
+                            },
+                            {
+                                "type": "Identifier",
+                                "name": "offx"
+                            },
+                            {
+                                "type": "Comparator",
+                                "value": "="
+                            },
+                            {
+                                "type": "Number",
+                                "value": "0"
+                            },
+                            {
+                                "type": "Operator",
+                                "value": ","
+                            },
+                            {
+                                "type": "Identifier",
+                                "name": "offy"
+                            },
+                            {
+                                "type": "Comparator",
+                                "value": "="
+                            },
+                            {
+                                "type": "Number",
+                                "value": "-1"
+                            }
+                        ]
+                    }
+                ]
             }
         }
     },
@@ -182,8 +271,27 @@
             "important": false,
             "property": "filter",
             "value": {
-                "type": "Raw",
-                "value": "chroma(color=red)"
+                "type": "Value",
+                "children": [
+                    {
+                        "type": "Function",
+                        "name": "chroma",
+                        "children": [
+                            {
+                                "type": "Identifier",
+                                "name": "color"
+                            },
+                            {
+                                "type": "Comparator",
+                                "value": "="
+                            },
+                            {
+                                "type": "Identifier",
+                                "name": "red"
+                            }
+                        ]
+                    }
+                ]
             }
         }
     },
