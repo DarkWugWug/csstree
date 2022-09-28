@@ -8,6 +8,11 @@
         color: red;
     }
 }
+@container (400px < width < 1000px) {
+    .this {
+        content: '';
+    }
+}
 
 *.class element#id[attr] [attr|="asd"][attr=value i]:pseudo::pseudo ~ :not(a, b) + :nth-child(odd):nth-child(2n + 1),
 svg|*:matches(a)::slotted(c) > :nth-child(odd of a, :b):nth-child(2n + 1 of [a]),
